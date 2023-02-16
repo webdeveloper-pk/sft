@@ -3,7 +3,7 @@ import chat from "../assets/images/chat.png"
 
 const SubHero = () => {
   return (
-    <section class="body-font px-6 md:px-8 lg:px-16 py-12 lg:py-16 md:mt-40">
+    <section class="body-font px-6 md:px-8 lg:px-16 py-12 lg:py-16 md:mt-52">
       <div className="flex flex-col-reverse md:flex-row justify-between items-end md:items-center gap-y-8">
       <div class="flex flex-col text-center md:text-left">
         <h1 class="text-5xl lg:text-6xl xl:text-8xl mb-4 font-medium text-light-black uppercase">
