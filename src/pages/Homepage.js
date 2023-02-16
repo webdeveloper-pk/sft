@@ -1,0 +1,44 @@
+import React from "react";
+import Challenge from "../components/Challenge";
+import DiscoverSFT from "../components/DiscoverSFT";
+import Featured from "../components/Featured";
+import Features from "../components/Features";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import MetaTraderScreen from "../components/MetaTraderScreen";
+import Navbar from "../components/Navbar";
+import Stats from "../components/Stats";
+import SubHero from "../components/SubHero";
+import Testimonial from "../components/Testimonial";
+import TextWithImage1 from "../components/TextWithImage1";
+import TextWithImage2 from "../components/TextWithImage2";
+import TextWithImage3 from "../components/TextWithImage3";
+import TextWithImage4 from "../components/TextWithImage4";
+import Working from "../components/Working";
+
+const Homepage = () => {
+  return (
+    <div>
+      <div className="hero-bg bg-lightest-white-bg">
+        <Navbar />
+        <Hero />
+        <SubHero />
+      </div>
+      <Stats />
+      <Featured />
+      <Challenge />
+      <DiscoverSFT />
+      <Working />
+      <TextWithImage1 />
+      <TextWithImage2 />
+      <Features />
+      <TextWithImage3 />
+      <TextWithImage4 />
+      <MetaTraderScreen />
+      <Testimonial />
+      <Footer />
+</div>
+  );
+};
+
+export default Homepage;
