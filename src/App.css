@@ -22,15 +22,47 @@
 /* features section */
 
 .features-bg {
-  background-image: url("../src/assets/images/featuresbg.png");
+  /* background-image: url("../src/assets/images/featuresbg.png");
   background-size: cover;
   background-position: center;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll; */
+  background: #1a1a1a;
+  position: relative;
+  transform: skewY(-20deg);
+  padding: 18% 0;
+  margin: -18% 0;
+  background-size: 115%;
 }
-
+.features-bg > div {
+  transform: skewY(20deg);
+}
+.features-left-glow {
+  position: absolute;
+  left: 0;
+  top: -45%;
+  width: 63vw;
+}
+.features-right-glow {
+  position: absolute;
+  right: 0;
+  bottom: -60%;
+  width: 63vw;
+}
+.features-right-dataAnalytics {
+  position: absolute;
+  right: 0;
+  top: -60%;
+  width: 50vw;
+}
+.features-left-dataAnalytics {
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  width: 50vw;
+}
 .featured-image {
   width: 100%;
   height: auto;
@@ -70,14 +102,20 @@
 
 .working-bg {
   background-image: url("../src/assets/images/workingbg.png");
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  transform: skewY(-20deg);
+  padding: 18% 0;
+  margin: -18% 0;
+  background-size: 115%;
 }
-
+.working-bg > div {
+  transform: skewY(20deg);
+}
 /* animations */
 
 /* navbar button styling  */
@@ -157,7 +195,7 @@
 #button-7 a {
   position: relative;
   left: 0;
-  transition: all .35s ease-Out;
+  transition: all 0.35s ease-Out;
 }
 
 #dub-arrow {
@@ -169,7 +207,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .35s ease-Out;
+  transition: all 0.35s ease-Out;
   bottom: 0;
 }
 
@@ -183,17 +221,17 @@
 
 /* stats button style */
 
-.stats1{
+.stats1 {
   position: relative;
-  transition: all .95s;
+  transition: all 0.95s;
 }
 
-.stats1 .stats2{
+.stats1 .stats2 {
   position: relative;
   z-index: 2;
 }
 
-.stats1:after{
+.stats1:after {
   position: absolute;
   content: "";
   top: 0;
@@ -201,14 +239,14 @@
   width: 0;
   height: 100%;
   background: #01c887;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.stats1:hover{
+.stats1:hover {
   color: #fff;
 }
 
-.stats1:hover:after{
+.stats1:hover:after {
   width: 100%;
   border-radius: 50px;
   background-color: #01c887;
@@ -216,17 +254,17 @@
 
 /* login button styling */
 
-.login{
+.login {
   position: relative;
-  transition: all .95s;
+  transition: all 0.95s;
 }
 
-.login .log{
+.login .log {
   position: relative;
   z-index: 2;
 }
 
-.login:after{
+.login:after {
   position: absolute;
   content: "";
   top: 0;
@@ -234,15 +272,37 @@
   width: 0;
   height: 100%;
   background: #01c887;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.login:hover{
+.login:hover {
   color: #fff;
 }
 
-.login:hover:after{
+.login:hover:after {
   width: 100%;
   border-radius: 50px;
   background-color: #01c887;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+}
+.footer > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer > img {
+    max-width: 52vw;
+  }
+  .working-bg {
+    transform: skewY(-20deg);
+    padding: 16% 0;
+    margin: -18% 0;
+    background-size: 128%;
+  }
 }
