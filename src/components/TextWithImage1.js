@@ -4,8 +4,8 @@ import textimage1 from "../assets/images/textimage1.png";
 const TextWithImage1 = () => {
   return (
     <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg">
-      <div class="mx-auto flex flex-col pt-12 lg:flex-row items-center gap-y-12 gap-x-6 lg:pt-16">
-        <div className="w-full lg:w-1/2">
+      <div class="mx-auto flex flex-col lg:flex-row items-center gap-y-12 gap-x-6">
+        <div className="w-full lg:w-1/2 z-50">
           <img
             className="object-cover object-center rounded"
             alt="video"

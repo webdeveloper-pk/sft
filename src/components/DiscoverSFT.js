@@ -1,10 +1,15 @@
 import React from "react";
 import discoverVideo from "../assets/images/discover-video.png";
+import discoverBg1 from "../assets/images/discover-bg1.png";
+import swinggorila from "../assets/images/swing-gorila.png";
 
 const DiscoverSFT = () => {
   return (
-    <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg">
-      <div class="mx-auto flex flex-col py-12 lg:py-16 lg:flex-row items-start gap-y-8 gap-x-6">
+    <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg relative">
+            <div className="absolute md:-top-[50%] lg:-top-[90%] xl:-top-[80%] leftt-0 z-50 hidden md:block">
+            <img src={swinggorila} alt="gorila" className="w-[200px] xl:w-[200px] h-[500px]" />
+            </div>
+      <div class="mx-auto flex flex-col pt-12 lg:pt-16 lg:flex-row items-start gap-y-8 gap-x-6">
         <div className="w-full lg:w-1/2 flex flex-col text-center md:text-left">
           <h1 className="text-2xl md:text-4xl mb-4 font-bold uppercase">
             Trade for <span className="text-light-green">Proprietary</span>
@@ -34,12 +39,20 @@ const DiscoverSFT = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 z-50 relative">
           <img
             className="object-cover object-center rounded"
             alt="video"
             src={discoverVideo}
           />
+          <div className="absolute -bottom-[60%] z-50">
+            <img
+              src={discoverBg1}
+              alt="reflection"
+              width="100%"
+              height="auto"
+            />
+          </div>
         </div>
       </div>
     </section>

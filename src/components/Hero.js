@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section class="px-6 md:px-8 lg:px-16 text-light-white">
       <div class="mx-auto flex py-12 md:flex-row flex-col items-center">
-        <div class="lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
+        <div class="slide-right lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center">
           <h1 class="text-5xl xl:text-7xl mb-4 font-bold text-light-white uppercase mt-8">
             Become an <br /> 
             <span className="text-light-green">SFT Trader!</span>

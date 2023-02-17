@@ -3,8 +3,8 @@ import logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <footer class="px-6 md:px-8 pt-32 md:pt-24 lg:pt-36 xl:pt-52 pb-32 lg:px-16  bg-lightest-white-bg footer-bg footer">
-      <img src={require("../assets/images/Gorilla Footer.png")} alt="" />
+    <footer class="px-6 md:px-8 pt-32 md:pt-24 lg:pt-36 xl:pt-52 pb-32 lg:px-16 bg-lightest-white-bg footer-bg relative footer-gorilla footer">
+      <img src={require("../assets/images/gorila-footer.png")} alt="" />
       <div className="mb-16 md:mb-24 flex justify-center md:justify-start">
         <img src={logo} alt="logo" width="150px" height="auto" />
       </div>
@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4">
+        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 z-50">
           <h2 className="font-bold text-white text-lg mb-4 uppercase">
             ABOUT US
           </h2>
@@ -160,7 +160,7 @@ const Footer = () => {
             </li>
           </nav>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4">
+        <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 z-50">
           <h2 className="font-bold text-white text-lg mb-4 uppercase">
             TRADING
           </h2>

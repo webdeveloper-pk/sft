@@ -4,9 +4,8 @@ import textimage3 from "../assets/images/textimage3.png";
 const TextWithImage3 = () => (
     <section class="pr-6 mr:px-8 xl:pr-16 bg-lightest-white-bg">
         <div class="mx-auto flex flex-col py-12 lg:flex-row items-end gap-y-8 gap-x-6 lg:py-16">
-            <div className="w-full lg:w-1/2">
+            <div className="w-full lg:w-1/2 z-50">
                 <img
-                    className="object-cover object-center rounded"
                     alt="video"
                     src={textimage3} />
             </div>

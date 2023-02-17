@@ -3,7 +3,7 @@ import textimage2 from "../assets/images/textimage2.png";
 
 const TextWithImage2 = () => {
   return (
-    <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg">
+    <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg lg:-mt-12">
       <div class="mx-auto flex flex-col lg:flex-row items-center gap-y-8 gap-x-6 pt-12 lg:pt-0 ">
         <div className="w-full lg:w-1/2 flex flex-col text-center md:text-left">
           <h1 className="text-2xl md:text-4xl mb-4 font-bold uppercase">
@@ -25,13 +25,16 @@ const TextWithImage2 = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2">
-          <img
-            className="object-cover object-center rounded"
-            alt="video"
-            src={textimage2}
-          />
+        <div className="w-full lg:w-1/2 z-50">
+          <img alt="video" src={textimage2} />
         </div>
+      </div>
+      <div className="uppercase text-light-green text-3xl md:text-5xl mt-12 block xl:hidden">
+        <h1>
+          SCALING KEY
+          <br />
+          FEATURES
+        </h1>
       </div>
     </section>
   );

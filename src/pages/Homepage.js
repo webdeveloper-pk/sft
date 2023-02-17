@@ -18,8 +18,8 @@ import Working from "../components/Working";
 
 const Homepage = () => {
   return (
-    <div>
-      <div className="hero-bg bg-lightest-white-bg">
+    <div className="bg-lightest-white-bg overflow-bg">
+      <div className="hero-bg">
         <Navbar />
         <Hero />
         <SubHero />

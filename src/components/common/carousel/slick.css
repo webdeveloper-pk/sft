@@ -30,6 +30,7 @@
 .slick-list:focus
 {
     outline: none;
+    background-color: blue;
 }
 .slick-list.dragging
 {
@@ -123,4 +124,3 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-
