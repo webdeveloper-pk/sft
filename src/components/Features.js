@@ -7,7 +7,7 @@ import featuresbg4 from "../assets/images/features-bg4.png";
 
 const Features = () => {
   return (
-    <section class="px-8 lg:px-12 pb-16 xl:mt-0 text-light-black features-bg relative">
+    <section class="px-6 md:px-8 lg:px-16 pb-16 xl:mt-0 text-light-black features-bg relative">
       <div className="absolute left-0 bottom-0">
         <img
           src={featuresbg1}
