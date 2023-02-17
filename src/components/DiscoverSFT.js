@@ -6,9 +6,13 @@ import swinggorila from "../assets/images/swing-gorila.png";
 const DiscoverSFT = () => {
   return (
     <section class="px-6 md:px-8 xl:px-16 bg-lightest-white-bg relative">
-            <div className="absolute md:-top-[50%] lg:-top-[90%] xl:-top-[80%] leftt-0 z-50 hidden md:block">
-            <img src={swinggorila} alt="gorila" className="w-[200px] xl:w-[200px] h-[500px]" />
-            </div>
+      <div className="absolute md:-top-[50%] lg:-top-[90%] xl:-top-[80%] leftt-0 z-50 hidden md:block">
+        <img
+          src={swinggorila}
+          alt="gorila"
+          className="w-[200px] xl:w-[200px] h-[500px]"
+        />
+      </div>
       <div class="mx-auto flex flex-col pt-12 lg:pt-16 lg:flex-row items-start gap-y-8 gap-x-6">
         <div className="w-full lg:w-1/2 flex flex-col text-center md:text-left">
           <h1 className="text-2xl md:text-4xl mb-4 font-bold uppercase">
@@ -45,7 +49,7 @@ const DiscoverSFT = () => {
             alt="video"
             src={discoverVideo}
           />
-          <div className="absolute -bottom-[60%] z-50">
+          <div className="absolute -bottom-[55%] z-50">
             <img
               src={discoverBg1}
               alt="reflection"

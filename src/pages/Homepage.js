@@ -18,7 +18,7 @@ import Working from "../components/Working";
 
 const Homepage = () => {
   return (
-    <div className="bg-lightest-white-bg overflow-bg">
+    <div className="bg-lightest-white-bg overflow-body">
       <div className="hero-bg">
         <Navbar />
         <Hero />
@@ -37,7 +37,7 @@ const Homepage = () => {
       <MetaTraderScreen />
       <Testimonial />
       <Footer />
-</div>
+    </div>
   );
 };
 

@@ -26,7 +26,7 @@ const Features = () => {
           className="w-[200px] md:w-[300px] lg:w-[500px]"
         />
       </div>
-      <div className="absolute left-0 top-0">
+      <div className="absolute left-0 -top-[10%]">
         <img
           src={featuresbg3}
           alt="dots"
@@ -35,7 +35,7 @@ const Features = () => {
           className="w-[200px] md:w-[300px] lg:w-[500px]"
         />
       </div>
-      <div className="absolute right-0 bottom-0">
+      <div className="absolute right-0 -bottom-[10%]">
         <img
           src={featuresbg4}
           alt="dots"

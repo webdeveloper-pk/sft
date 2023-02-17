@@ -9,7 +9,7 @@ import workbg5 from "../assets/images/work-bg5.png";
 
 const Working = () => {
   return (
-    <section class="px-6 md:px-8 xl:px-16 py-32 lg:py-[250px] text-light-black working-bg">
+    <section class="px-2 md:px-8 xl:px-16 py-32 lg:py-[250px] text-light-black working-bg">
         <div className="absolute bottom-0 left-0">
             <img src={workbg1} alt="dots" width="500px" height="auto" />
         </div>
@@ -35,7 +35,7 @@ const Working = () => {
               phase="PHASE 1"
               title="SFT CHALLENGE"
               description="Depending on the challenge you choose, you have between 30 and 40 days to reach the profitability goal on a demo account that will be assigned to you."
-              borderWidth="border-r-light-green"
+              value="33"
             />
           </div>
           <div>
@@ -43,7 +43,7 @@ const Working = () => {
               phase="PHASE 2"
               title="SFT CHALLENGE"
               description="If you succeed in phase #1, you can access phase 2, the validation phase, during which you will be asked to repeat your performance (with some slight modifications)."
-              borderWidth="border-r-light-green border-b-light-green"
+              value="66"
             />
           </div>
           <div>
@@ -51,7 +51,7 @@ const Working = () => {
               phase="PHASE 3"
               title="SFT TRADER"
               description="If you validate phase 2, you will join the SFT Elite Team and a real money account will be made available to you so that you can perform. You can pocket 90% of the account's profits."
-            borderWidth="border-r-light-green border-b-light-green border-l-light-green border-t-light-green"
+              value="100"
             />
           </div>
         </div>
