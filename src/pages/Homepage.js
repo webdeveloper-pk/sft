@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from "aos";
 import Challenge from "../components/Challenge";
 import DiscoverSFT from "../components/DiscoverSFT";
 import Featured from "../components/Featured";
@@ -17,6 +18,11 @@ import TextWithImage4 from "../components/TextWithImage4";
 import Working from "../components/Working";
 
 const Homepage = () => {
+  React.useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div className="bg-lightest-white-bg overflow-body">
       <div className="hero-bg">

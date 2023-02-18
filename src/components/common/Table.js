@@ -12,34 +12,64 @@ const Table = () => {
                   <th></th>
                   <th>
                     <div className="flex flex-col items-center justify-start border-l border-light-green">
-                      <button className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center">
+                      <button
+                        className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center"
+                        data-aos="fade-right"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
                         <div className="w-[15px] h-[15px] lg:w-[23px] lg:h-[23px] border border-2 border-white rounded-full px-2 py-2 border-r-dark-green"></div>
                         <span className="ml-1 md:ml-2">step 1</span>
                       </button>
-                      <p className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl">
-                      SFT challenge
+                      <p
+                        className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl"
+                        data-aos="fade-left"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
+                        SFT challenge
                       </p>
                     </div>
                   </th>
                   <th>
                     <div className="flex flex-col items-center justify-start border-l border-light-green">
-                      <button className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center">
+                      <button
+                        className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center"
+                        data-aos="fade-right"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
                         <div className="w-[15px] h-[15px] lg:w-[23px] lg:h-[23px] border border-2 border-white rounded-full px-2 py-2 border-r-dark-green border-b-dark-green"></div>
                         <span className="ml-1 md:ml-2">step 2</span>
                       </button>
-                      <p className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl">
-                      SFT challenge
+                      <p
+                        className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl"
+                        data-aos="fade-left"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
+                        SFT challenge
                       </p>
                     </div>
                   </th>
                   <th>
                     <div className="flex flex-col items-center justify-start border-l border-light-green">
-                      <button className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center">
+                      <button
+                        className="bg-gradient-to-b from-bg-green1 to-bg-green3 uppercase text-light-white font-bold rounded-full py-1 lg:py-2 px-3 lg:px-4 text-xs md:text-md xl:text-2xl flex flex-row items-center"
+                        data-aos="fade-right"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
                         <div className="w-[15px] h-[15px] lg:w-[23px] lg:h-[23px] border border-2 border-white rounded-full px-2 py-2 border-r-dark-green border-b-dark-green border-l-dark-green border-t-dark-green"></div>
                         <span className="ml-1 md:ml-2">step 3</span>
                       </button>
-                      <p className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl">
-                      SFT trader
+                      <p
+                        className="text-bg-green3 mt-2 uppercase font-bold text-lg lg:text-xl xl:text-2xl"
+                        data-aos="fade-left"
+                        data-aos-duration="3000"
+                        data-aos-once="true"
+                      >
+                        SFT trader
                       </p>
                     </div>
                   </th>
@@ -53,7 +83,12 @@ const Table = () => {
               </thead>
               <tbody className="uppercase text-lighter-black">
                 <tr>
-                  <td className="text-md font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     Trading period
                   </td>
                   <td className="text-md font-light px-16 lg:px-0  py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -65,7 +100,12 @@ const Table = () => {
                   <td className="text-md  font-light px-16 lg:px-0  py-4 whitespace-nowrap bg-bg-green3 text-center"></td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     Min. Trading Days
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0  py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -77,7 +117,12 @@ const Table = () => {
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green3 text-center"></td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 py-4 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     Max. daily loss
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -91,7 +136,12 @@ const Table = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     Max. loss
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0  py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -105,7 +155,12 @@ const Table = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     profit target
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -117,7 +172,12 @@ const Table = () => {
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green3 text-center"></td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     free repeat
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green1 text-center">
@@ -129,7 +189,12 @@ const Table = () => {
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green3 text-center"></td>
                 </tr>
                 <tr>
-                  <td className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2">
+                  <td
+                    className="text-md  font-bold px-8 whitespace-nowrap bg-gradient-to-b from-bg-gray1 to-bg-gray2"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-once="true"
+                  >
                     refundable fee
                   </td>
                   <td className="text-md  font-light px-16 lg:px-0 py-4 whitespace-nowrap bg-bg-green1 text-center">

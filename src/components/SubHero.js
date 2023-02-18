@@ -6,13 +6,22 @@ const SubHero = () => {
     <section class="body-font px-6 md:px-8 lg:px-16 py-12 lg:py-16 md:mt-52">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-y-8">
         <div class="flex flex-col items-center md:items-start text-center md:text-left">
-          <h1 class="text-5xl lg:text-6xl xl:text-8xl mb-4 font-medium text-light-black uppercase">
+          <h1
+            class="text-5xl lg:text-6xl xl:text-8xl mb-4 font-medium text-light-black uppercase"
+            data-aos="zoom-in-down"
+            data-aos-once="true"
+          >
             FIRST <br />
             CHALLENGE <br />
             IS
             <span className="text-light-green font-bold px-4">FREE!</span>
           </h1>
-          <div className="pl-0 md:pl-24 text-light-black text-3xl">
+          <div
+            className="pl-0 md:pl-24 text-light-black text-3xl"
+            data-aos="flip-right"
+            data-aos-once="true"
+            data-aos-duration="3000"
+          >
             <p>
               Join your{" "}
               <span className="text-light-green font-bold px-1">FREE</span>{" "}
@@ -26,7 +35,15 @@ const SubHero = () => {
         </div>
         <div className="-mt-4 md:mt-0 w-full  md:w-auto">
           <div className="flex flex-row justify-end md:justify-center">
-          <img src={chat} alt="chat" width="80px" height="auto" />
+            <img
+              src={chat}
+              alt="chat"
+              width="80px"
+              height="auto"
+              data-aos="zoom-in-left"
+              data-aos-once="true"
+              data-aos-duration="3000"
+            />
           </div>
         </div>
       </div>

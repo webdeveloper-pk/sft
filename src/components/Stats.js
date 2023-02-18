@@ -5,10 +5,20 @@ const Stats = () => {
   return (
     <section class="px-6 md:px-8 lg:px-16 py-4 lg:py-6 bg-lightest-white-bg">
       <div class="w-full mx-auto flex justify-center xl:justify-between gap-y-6 md:gap-x-8 lg:gap-x-4 xl:gap-x-0 flex-wrap">
-        <div className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]">
+        <div
+          className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]"
+          data-aos="zoom-in-right"
+          data-aos-once="true"
+          data-aos-duration="2500"
+        >
           <Stat stats="$24M+" description={`Paid out to FTMO Traders`} />
         </div>
-        <div className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]">
+        <div
+          className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]"
+          data-aos="zoom-in-down"
+          data-aos-once="true"
+          data-aos-duration="2500"
+        >
           <Stat
             stats="150+"
             description={[
@@ -18,13 +28,23 @@ const Stats = () => {
             ]}
           />
         </div>
-        <div className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]">
+        <div
+          className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]"
+          data-aos="zoom-in-up"
+          data-aos-once="true"
+          data-aos-duration="2500"
+        >
           <Stat
             stats="4M+"
             description={["No. of trades", <br />, "opened every month"]}
           />
         </div>
-        <div className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]">
+        <div
+          className="w-[80%] md:w-[40%] lg:w-[23%] xl:w-[20%]"
+          data-aos="zoom-in-left"
+          data-aos-once="true"
+          data-aos-duration="2500"
+        >
           <Stat
             stats="6H"
             description={["Average payout", <br />, "processing time "]}
