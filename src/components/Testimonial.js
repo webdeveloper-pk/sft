@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./common/Button";
+import HomepageButton from "./common/HomepageButton";
 import SimpleSlider from "./common/carousel/Carousel";
 import stars from "../assets/images/stars.png";
 import testimonial from "../assets/images/testimonial-logo.png";
@@ -22,7 +22,7 @@ const Testimonial = () => {
       </div>
       <SimpleSlider />
       <div className="flex justify-center mt-12 z-50">
-        <Button buttonText="Read More" goText="Read" />
+        <HomepageButton buttonText="Read More" goText="Read" />
       </div>
     </section>
   );

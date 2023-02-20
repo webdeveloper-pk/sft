@@ -57,12 +57,15 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 25px;
-
-    opacity: 10;
+    font-size: 24px;
     color: white;
     background-color: #01c887;
-    padding: 6px 8px;
+    padding-bottom: 2px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100%;
 
     -webkit-font-smoothing: antialiased;
@@ -80,11 +83,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '>';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '<';
 }
 
 .slick-next
@@ -98,11 +101,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '>';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '<';
 }
 
 /* Dots */

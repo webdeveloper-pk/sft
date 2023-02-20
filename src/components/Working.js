@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./common/Button";
+import HomepageButton from "./common/HomepageButton";
 import Phase from "./common/Phase";
 import workbg1 from "../assets/images/work-bg1.png";
 import workbg2 from "../assets/images/work-bg2.png";
@@ -56,7 +56,7 @@ const Working = () => {
           </div>
         </div>
         <div>
-          <Button buttonText="get started" goText="start" />
+          <HomepageButton buttonText="get started" goText="start" />
         </div>
       </div>
     </section>

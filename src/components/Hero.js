@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./common/Button";
+import HomepageButton from "./common/HomepageButton";
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
             successful SFT trader.
           </p>
           <div class="flex justify-center">
-            <Button buttonText="Get started" goText="Start" />
+            <HomepageButton buttonText="Get started" goText="Start" />
           </div>
         </div>
       </div>

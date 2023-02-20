@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import gbp from "../assets/images/gbp.png";
 
@@ -84,14 +85,14 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="hover:cursor-pointer hover:text-white">
-                  <a href="/">
+                  <Link to="/login">
                     <button
                       onClick={() => setNavbar(!navbar)}
                       className="login text-light-black bg-light-white border border-light-white hover:border-light-green hover:bg-light-green hover:text-light-white py-1.5 2xl:py-3 px-8 rounded-full uppercase"
                     >
                       <span className="log">Login</span>
                     </button>
-                  </a>
+                    </Link>
                 </li>
                 <li className="hover:cursor-pointer hover:text-white">
                   <a
@@ -99,7 +100,7 @@ const Navbar = () => {
                     onClick={() => setNavbar(!navbar)}
                     className="flex flex-row gap-x-3 items-center"
                   >
-                    <span>Eng</span>
+                    <span style={{color: '#f2f2f2'}}>Eng</span>
                     <span>
                       <img src={gbp} alt="eng" width={22} height={22} />
                     </span>
