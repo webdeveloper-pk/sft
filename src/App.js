@@ -12,7 +12,8 @@ import SignUp from "./pages/SignUp";
 import AccountMerge from "./pages/AccountMerge";
 import ErrorPage from "./pages/ErrorPage";
 import Layout from "./components/Layout";
-import OrderList from "./pages/OrderList";
+import Orders from "./pages/Orders";
+import Downloads from "./pages/Downloads";
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
         <Layout>
           <Routes>
             <Route path="/accountmerge" element={<AccountMerge />} />
-            <Route path="/orderlist" element={<OrderList />} />
+            <Route path="/orders" element={<Orders />} />
+            <Route path="/downloads" element={<Downloads />} />
           </Routes>
         </Layout>
       </Router>

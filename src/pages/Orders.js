@@ -5,7 +5,7 @@ import arrowDown from "../assets/images/order-arrow-down.png";
 import sort from "../assets/images/order-sort-icon.png";
 import sadface from "../assets/images/order-face-icon.png";
 
-const OrderList = () => {
+const Orders = () => {
   return (
     <div>
       <div className="min-h-screen">
@@ -72,4 +72,4 @@ const OrderList = () => {
   );
 };
 
-export default OrderList;
+export default Orders;

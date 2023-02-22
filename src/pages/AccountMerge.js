@@ -43,11 +43,11 @@ const AccountMerge = () => {
               </div>
             </div>
             <div className="flex flex-row justify-center">
-              <ButtonFilled 
-              buttonText="confirm" 
-              textSize="text-base" 
-              paddingY="py-2"                  
-              paddingX="px-6 md:px-10 lg:px-14" 
+              <ButtonFilled
+                buttonText="confirm"
+                textSize="text-base"
+                paddingY="py-2"
+                paddingX="px-6 md:px-10 lg:px-14"
               />
             </div>
           </div>

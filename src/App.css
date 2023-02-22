@@ -110,7 +110,7 @@ p {
 .footer-bg {
   background-image: url("../src/assets/images/footerbg.png");
   background-size: cover;
-  height: auto;
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -129,6 +129,12 @@ p {
 @media screen and (max-width: 1440px) {
   .footer > img {
     max-width: 52vw;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+  .footer > img {
+    max-width: 42vw;
   }
 }
 
