@@ -161,10 +161,12 @@ const SignUp = () => {
                     />
                   </Col>
                 </Row>
-                <div className="flex flex-row items-center justify-center mt-4 lg:mt-8 gap-x-4">
+                <div className="flex flex-row items-center justify-center mt-6 lg:mt-8 gap-x-4">
                   <ButtonFilled
                     textSize="text-xs lg:text-sm"
                     buttonText="sign up"
+                    paddingY="py-4"
+                    paddingX="px-6 md:px-10 lg:px-16"
                   />
                 </div>
               </div>

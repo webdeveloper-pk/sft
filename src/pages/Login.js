@@ -67,6 +67,8 @@ const Login = () => {
                 <ButtonFilled
                   textSize="text-xs lg:text-sm"
                   buttonText="get started"
+                  paddingY="py-4"
+                  paddingX="px-6 md:px-10 lg:px-12"
                 />
                 <Button
                   textSize="text-xs md:text-sm"

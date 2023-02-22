@@ -4,10 +4,9 @@ import Challenge from "../components/Challenge";
 import DiscoverSFT from "../components/DiscoverSFT";
 import Featured from "../components/Featured";
 import Features from "../components/Features";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MetaTraderScreen from "../components/MetaTraderScreen";
-import Navbar from "../components/Navbar";
+import NavbarHomepage from "../components/common/NavbarHomepage";
 import Stats from "../components/Stats";
 import SubHero from "../components/SubHero";
 import Testimonial from "../components/Testimonial";
@@ -16,6 +15,7 @@ import TextWithImage2 from "../components/TextWithImage2";
 import TextWithImage3 from "../components/TextWithImage3";
 import TextWithImage4 from "../components/TextWithImage4";
 import Working from "../components/Working";
+import FooterHomepage from "../components/common/FooterHomepage";
 
 const Homepage = () => {
 
@@ -28,7 +28,7 @@ const Homepage = () => {
   return (
     <div className="bg-lightest-white-bg overflow-body">
       <div className="hero-bg">
-        <Navbar />
+        <NavbarHomepage />
         <Hero />
         <SubHero />
       </div>
@@ -44,7 +44,7 @@ const Homepage = () => {
       <TextWithImage4 />
       <MetaTraderScreen />
       <Testimonial />
-      <Footer />
+      <FooterHomepage />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 
-const ButtonFilled = ({ textSize, buttonText }) => {
+const ButtonFilled = ({ textSize, buttonText, paddingX, paddingY }) => {
   return (
-    <div className={`${textSize} text-light-white bg-light-green hover:text-light-green hover:bg-transparent py-3 2xl:py-3 px-6 md:px-8 lg:px-12 rounded-full uppercase font-bold border border-light-green`}>
+    <div className={`${textSize} ${paddingX} ${paddingY} text-white bg-light-green hover:text-light-green hover:bg-transparent 2xl:py-3 rounded-full uppercase font-semibold border border-light-green hover:cursor-pointer`}>
         {buttonText}
     </div>
   );

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
-import gbp from "../assets/images/gbp.png";
+import logo from "../../assets/images/logo.png";
+import gbp from "../../assets/images/gbp.png";
 
-const Navbar = () => {
+const NavbarHomepage = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
@@ -115,4 +115,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarHomepage;
