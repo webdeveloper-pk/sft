@@ -48,7 +48,7 @@ const DownloadCard = ({ metaIcon }) => {
         <ButtonFilled
           buttonText="Download"
           textSize="text-lg"
-          paddingY="py-2"
+          paddingY="py-1.5"
           paddingX="px-6 md:px-10 lg:px-14"
         />
       </div>
