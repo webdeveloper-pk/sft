@@ -18,6 +18,7 @@ import AccountWithdrawals from "./pages/AccountWithdrawals";
 import AccountInformation from "./pages/AccountInformation";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
+import Policy from "./pages/Policy";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/policy" element={<Policy />} />
           <Route path="/404" element={<ErrorPage />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
