@@ -19,11 +19,12 @@ import AccountInformation from "./pages/AccountInformation";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import Policy from "./pages/Policy";
+import AccountAffiliatePortal from "./pages/AccountAffiliatePortal";
 
 const App = () => {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Layout>
           <Routes>
             <Route path="/accountmerge" element={<AccountMerge />} />
@@ -31,10 +32,11 @@ const App = () => {
             <Route path="/downloads" element={<AccountDownloads />} />
             <Route path="/withdrawals" element={<AccountWithdrawals />} />
             <Route path="/information" element={<AccountInformation />} />
+            <Route path="/affiliateportal" element={<AccountAffiliatePortal />} />
           </Routes>
         </Layout>
-      </Router> */}
-      <Router>
+      </Router>
+      {/* <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
@@ -45,7 +47,7 @@ const App = () => {
           <Route path="/404" element={<ErrorPage />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 };

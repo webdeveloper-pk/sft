@@ -26,6 +26,11 @@ module.exports = {
         'bg-green2': '#7BD9B6',
         'bg-green3': '#00C887',
         'dark-green': '#588970',
+        'referral-green1': '#01c887',
+        'referral-green2': '#6cdab6',
+        'referral-green3': '#9ce1cb',
+        'referral-green4': '#b6eedc',
+        'referral-green5': '#cdf6e9',
       }
     }
   },

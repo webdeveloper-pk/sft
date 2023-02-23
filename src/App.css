@@ -522,3 +522,18 @@ p {
   background-repeat: no-repeat;
 
 }
+
+/* affiliate portal */
+
+.affiliate-input::placeholder {
+  color: #01c887;
+}
+
+.affiliate-table-bg  {
+  background-image: url(../src//assets//images/affiliate-table-gorilla.png);
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}

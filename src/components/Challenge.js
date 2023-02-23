@@ -6,7 +6,7 @@ import czech from "../assets/images/czech.png";
 import cad from "../assets/images/cad.png";
 import aud from "../assets/images/aud.png";
 import chf from "../assets/images/chf.png";
-import Table from "./common/Table";
+import ChallengeTable from "./common/ChallengeTable";
 import HomepageButton from "./common/HomepageButton";
 import Currency from "./common/Currency";
 import ChallengeButton from "./common/ChallengeButton";
@@ -262,7 +262,7 @@ const Challenge = () => {
           </div>
         </div>
         <div>
-          <Table />
+          <ChallengeTable />
         </div>
         <div className="mt-6 flex flex-row justify-center">
           <HomepageButton buttonText="start challenge" goText="Start" />
