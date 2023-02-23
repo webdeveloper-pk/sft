@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer class="px-6 md:px-8 lg:px-16 pt-12 md:pt-14 pb-32 md:pb-40 relative footer bg-black">
       <img src={require("../../assets/images/gorila-footer.png")} alt="" />
-      <div className="mb-16 md:mb-24 flex justify-center md:justify-start lg:pl-8">
+      <div className="mb-14 flex justify-center md:justify-start lg:pl-8">
         <img src={logo} alt="logo" width="150px" height="auto" />
       </div>
       <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4 lg:pl-8">

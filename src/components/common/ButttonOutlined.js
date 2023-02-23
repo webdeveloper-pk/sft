@@ -1,8 +1,8 @@
 import React from "react";
 
-const ButtonOutlined = ({ textSize, buttonText }) => {
+const ButtonOutlined = ({ textSize, buttonText, paddingX, paddingY}) => {
   return (
-    <div className={`${textSize} text-light-green bg-transparent hover:text-light-white hover:bg-light-green py-1.5 lg:py-2 2xl:py-3 px-6 rounded-full uppercase font-bold border border-light-green hover:cursor-pointer`}>
+    <div className={`${textSize} ${paddingX} ${paddingY} text-light-green bg-transparent hover:text-light-white hover:bg-light-green rounded-full uppercase font-bold border border-light-green hover:cursor-pointer`}>
       {buttonText}
     </div>
   );

@@ -10,7 +10,7 @@ const Orders = () => {
     <div>
       <div className="min-h-screen">
         <div className="flex flex-col md:flex-row justify-between items-center gap-y-4 pt-10">
-          <h1 className="text-black text-2xl font-bold">
+          <h1 className="text-black text-2xl lg:text-3xl font-bold">
             Order <span className="text-light-green">List</span>
           </h1>
           <div className="flex flex-row gap-x-3">

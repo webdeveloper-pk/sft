@@ -4,42 +4,42 @@ import ButtonFilled from "../components/common/ButtonFilled";
 const AccountMerge = () => {
   return (
     <div>
-      <div className="min-h-screen">
+      <div className="h-full pb-[200px] lg:pb-[300px] xl:pb-[360px]">
         <div className="pt-10">
-          <h1 className="text-black text-2xl font-bold">Merge</h1>
-          <p className="text-black text-sm font-medium">
+          <h1 className="text-black text-2xl lg:text-3xl font-bold">Merge</h1>
+          <p className="text-black text-sm lg:text-base font-semibold">
             SFT offers flexibility with its master account merger. Two or more
             active trade-free funded accounts (nominated in the same currency)
             are accepted to integrate into one account.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-start gap-y-8 gap-x-12 mt-8 text-lighter-black pb-12 md:pb-0">
-          <div className="w-full md:w-[45%] lg:w-[40%] xl:w-[30%] bg-white rounded-xl px-8 py-6 text-center min-h-[200px]">
-            <h1 className="text-lg font-semibold ">
+        <div className="flex flex-col md:flex-row justify-start gap-y-8 md:gap-x-8 gap-x-12 mt-7 text-lighter-black pb-12 md:pb-0">
+          <div className="w-full md:w-[48%] lg:w-[45%] xl:w-[32%] bg-white rounded-xl px-8 py-7 text-center min-h-[220px]">
+            <h1 className="text-xl font-bold ">
               Avaiable challenge for switch
             </h1>
-            <p className="text-xs font-semibold mt-10">
+            <p className="text-sm font-bold mt-10">
               No Challenge available for switch
             </p>
           </div>
-          <div className="w-full md:w-[45%] lg:w-[40%] xl:w-[30%] bg-white rounded-xl px-8 py-6 text-center min-h-[200px]">
-            <h1 className="text-lg font-semibold ">
+          <div className="w-full md:w-[48%] lg:w-[45%] xl:w-[32%] bg-white rounded-xl px-8 pt-7 pb-6 text-center">
+            <h1 className="text-xl font-bold ">
               Trading objectives after switch
             </h1>
             <div className="flex flex-row justify-between my-6">
+              <div className="">
+                <p className="text-xs lg:text-sm font-bold ">Balance</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
+              </div>
+              <div className="px-2 md:px-0 border-r border-lighter-gray"></div>
               <div>
-                <p className="text-xs font-semibold ">Balance</p>
-                <p className="text-lg lg:text-xl font-bold">$ 0.00</p>
+                <p className="text-xs lg:text-sm font-bold ">Max Daily Loss</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
               </div>
               <div className="border-r border-lighter-gray"></div>
               <div>
-                <p className="text-xs font-semibold ">Max Daily Loss</p>
-                <p className="text-lg lg:text-xl font-bold">$ 0.00</p>
-              </div>
-              <div className="border-r border-lighter-gray"></div>
-              <div>
-                <p className="text-xs font-semibold">Max Overall Loss</p>
-                <p className="text-lg lg:text-xl font-bold">$ 0.00</p>
+                <p className="text-xs lg:text-sm font-bold">Max Overall Loss</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
               </div>
             </div>
             <div className="flex flex-row justify-center">
