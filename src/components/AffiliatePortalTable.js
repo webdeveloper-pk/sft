@@ -3,18 +3,18 @@ import emoji from "../assets/images/order-face-icon.png";
 
 const AffiliatePortalTable = () => {
   return (
-    <div className="overflow-auto">
-      <table className="w-full table-auto lg:table-fixed">
+    <div className="overflow-auto bg-white">
+      <table className="w-full table-fixed">
         <thead className="">
           <tr className="bg-light-green text-white font-semibold text-sm">
-            <th className="py-4 px-8 xl:px-0">Client Name</th>
-            <th className="py-4 px-8 xl:px-0">Order ID</th>
-            <th className="py-4 px-8 xl:px-0">Purchase Date</th>
-            <th className="py-4 px-8 xl:px-0">Product Purchased</th>
-            <th className="py-4 px-8 xl:px-0">Purchase Price</th>
-            <th className="py-4 px-8 xl:px-0">Affiliate Commission</th>
-            <th className="py-4 px-8 xl:px-0">Affiliate Commission</th>
-            <th className="py-4 px-8 xl:px-0">Discount Code</th>
+            <th className="py-4 xl:px-0 w-[100px]">Client Name</th>
+            <th className="py-4  xl:px-0 w-[100px]">Order ID</th>
+            <th className="py-4 xl:px-0 w-[100px]">Purchase Date</th>
+            <th className="py-4 xl:px-0 w-[100px]">Product Purchased</th>
+            <th className="py-4 xl:px-0 w-[100px]">Purchase Price</th>
+            <th className="py-4 xl:px-0 w-[100px]">Affiliate Commission</th>
+            <th className="py-4  xl:px-0 w-[100px]">Affiliate Commission</th>
+            <th className="py-4  xl:px-0 w-[100px]">Discount Code</th>
           </tr>
         </thead>
       </table>
