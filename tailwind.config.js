@@ -8,11 +8,12 @@ module.exports = {
       colors: {
         'light-white': '#f2f2f2',
         'lightest-white-bg': '#efefef',
-        'dark-gray': '#bcbcbc',
         'light-gray': '#a8a8a8',
         'lighter-gray': '#bfbfbf',
+        'lighter-gray2': '#757575',
         'lightest-gray': '#7B7A7A',
         'medium-gray': '#efefef',
+        'dark-gray': '#bcbcbc',
         'bg-gray1': '#E8E9EA',
         'bg-gray2': '#D5D7D8',
         'carbon-black': '#181818',

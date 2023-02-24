@@ -15,9 +15,6 @@ const Phase = ({ value, phase, title, description }) => {
         trackSize={6}
         data={[]}
         dataIndex={value}
-        onChange={(value) => {
-          console.log(value);
-        }}
         hideKnob
         min={0}
         max={100}

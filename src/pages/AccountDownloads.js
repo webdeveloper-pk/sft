@@ -9,7 +9,9 @@ const Downloads = () => {
     <div>
       <div className="h-full pb-[200px] lg:pb-[300px] xl:pb-[360px]">
         <div className="pt-10">
-          <h1 className="text-black text-2xl lg:text-3xl font-bold">Downloads</h1>
+          <h1 className="text-black text-2xl lg:text-3xl font-bold">
+            Downloads
+          </h1>
           <div className="flex flex-col md:flex-row justify-between text-black text-sm lg:text-base font-semibold mb-10">
             <div className="w-full md:w-[48%] xl:w-[45%]">
               <p>

@@ -29,17 +29,23 @@ const AccountMerge = () => {
             <div className="flex flex-row justify-between my-6">
               <div className="">
                 <p className="text-xs lg:text-sm font-bold ">Balance</p>
-                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">
+                  $ 0.00
+                </p>
               </div>
               <div className="px-2 md:px-0 border-r border-lighter-gray"></div>
               <div>
                 <p className="text-xs lg:text-sm font-bold ">Max Daily Loss</p>
-                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">
+                  $ 0.00
+                </p>
               </div>
               <div className="border-r border-lighter-gray"></div>
               <div>
                 <p className="text-xs lg:text-sm font-bold">Max Overall Loss</p>
-                <p className="text-sm md:text-lg lg:text-2xl font-bold">$ 0.00</p>
+                <p className="text-sm md:text-lg lg:text-2xl font-bold">
+                  $ 0.00
+                </p>
               </div>
             </div>
             <div className="flex flex-row justify-center">

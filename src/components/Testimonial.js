@@ -8,9 +8,13 @@ import testimonialbg from "../assets/images/testimonialbg.png";
 const Testimonial = () => {
   return (
     <section class="px-6 md:px-8 xl:px-16 py-12 lg:py-16 bg-lightest-white-bg text-light-black relative">
-        <div className="absolute left-[15%] xl:left-[22%] 2xl:w-[50%] top-[25%] md:top-[5%]">
-            <img src={testimonialbg} alt="testimonial" className="w-[100%] md:w-[700px] xl:w-[800px] h-auto" />
-        </div>
+      <div className="absolute left-[15%] xl:left-[22%] 2xl:w-[50%] top-[25%] md:top-[5%]">
+        <img
+          src={testimonialbg}
+          alt="testimonial"
+          className="w-[100%] md:w-[700px] xl:w-[800px] h-auto"
+        />
+      </div>
       <div className="flex flex-col items-center mb-12">
         <img src={testimonial} alt="trust-pilot" width="300px" height="auto" />
         <div className="flex flex-row flex-wrap items-center justify-center gap-x-4 gap-y-4 mt-6">

@@ -32,7 +32,10 @@ const App = () => {
             <Route path="/downloads" element={<AccountDownloads />} />
             <Route path="/withdrawals" element={<AccountWithdrawals />} />
             <Route path="/information" element={<AccountInformation />} />
-            <Route path="/affiliateportal" element={<AccountAffiliatePortal />} />
+            <Route
+              path="/affiliateportal"
+              element={<AccountAffiliatePortal />}
+            />
           </Routes>
         </Layout>
       </Router>

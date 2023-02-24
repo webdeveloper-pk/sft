@@ -472,13 +472,13 @@ p {
 @media screen and (max-width: 767px) and (min-width: 319px) {
   .panel-header {
     font-size: 14px;
-    }
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .panel-header {
     font-size: 16px;
-    }
+  }
 }
 
 @media screen and (max-width: 375px) and (min-width: 319px) {
@@ -520,7 +520,6 @@ p {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-
 }
 
 /* affiliate portal */
@@ -529,11 +528,114 @@ p {
   color: #01c887;
 }
 
-.affiliate-table-bg  {
+.affiliate-table-bg {
   background-image: url(../src//assets//images/affiliate-table-gorilla.png);
   background-size: contain;
   background-position: center;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
+}
+
+/* information */
+
+.info-input {
+  border: 1px solid #a8a8a8;
+  border-radius: 8px;
+}
+
+.info-input::placeholder {
+  color: #757575;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.info-label {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.info-input:focus .info-input:active {
+  border: 1px solid #757575;
+}
+
+.tabs-info .ant-tabs-tab-btn {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 6px 28px;
+  border-bottom: 3px solid transparent;
+}
+
+.tabs-info .ant-tabs-tab-btn:hover {
+  color: #000000;
+}
+
+.tabs-info .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #01c887;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 6px 28px;
+  border-bottom: 3px solid #01c887;
+}
+
+@media screen and (max-width: 767px) {
+  .tabs-info .ant-tabs-tab-btn {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-bottom: 3px solid transparent;
+  }
+
+  .tabs-info .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #01c887;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-bottom: 3px solid #01c887;
+  }
+}
+
+.inner-tabs-info .ant-tabs-tab-btn {
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+  border: 1px solid #01c887;
+}
+
+.inner-tabs-info .ant-tabs-tab-btn:hover {
+  color: #000000;
+}
+
+.inner-tabs-info .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  border: 1px solid #01c887;
+  background-color: #01c887;
+}
+
+.inner-tabs-info .ant-tabs-tab {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .inner-tabs-info .ant-tabs-tab-btn {
+    padding: 6px 24px;
+  }
+
+  .inner-tabs-info .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    padding: 6px 24px;
+  }
+}
+
+.inner-tabs-info .ant-tabs .ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs div .ant-tabs-nav .ant-tabs-nav-wrap {
+  border-bottom: 2px solid white;
+}
+
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: transparent;
+  pointer-events: none;
 }

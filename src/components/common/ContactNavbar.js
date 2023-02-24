@@ -92,7 +92,7 @@ const ContactNavbar = () => {
                     >
                       <span className="log">Login</span>
                     </button>
-                    </Link>
+                  </Link>
                 </li>
                 <li className="hover:cursor-pointer hover:text-white">
                   <a
@@ -100,7 +100,7 @@ const ContactNavbar = () => {
                     onClick={() => setNavbar(!navbar)}
                     className="flex flex-row gap-x-3 items-center"
                   >
-                    <span style={{color: '#000000'}}>Eng</span>
+                    <span style={{ color: "#000000" }}>Eng</span>
                     <span>
                       <img src={gbp} alt="eng" width={22} height={22} />
                     </span>

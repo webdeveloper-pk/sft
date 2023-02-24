@@ -33,14 +33,9 @@ const TextWithImage4 = () => {
           </div>
         </div>
         <div className="flex justify-end xl:justify-center">
-        <div className="w-full lg:w-[70%]">
-          <img
-            width="100%"
-            height="auto"
-            alt="video"
-            src={textimage4}
-          />
-        </div>
+          <div className="w-full lg:w-[70%]">
+            <img width="100%" height="auto" alt="video" src={textimage4} />
+          </div>
         </div>
       </div>
     </section>

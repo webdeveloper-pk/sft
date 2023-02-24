@@ -95,8 +95,8 @@ const AccountAffiliatePortal = () => {
         <div className="bg-black rounded-md ">
           <div className="bg-black flex flex-col lg:flex-row justify-between gap-y-4 rounded-md px-6 lg:px-12 xl:px-16 relative">
             <div className="absolute left-[30%] -top-[40%] ">
-            <img src={glow} alt="glow" width="500px" height="400px" />
-          </div>
+              <img src={glow} alt="glow" width="500px" height="400px" />
+            </div>
             <div className="w-full lg:w-[90%] xl:w-[65%] 2xl:w-[50%] py-12 lg:py-8 xl:py-12">
               <h1 className="text-2xl md:text-3xl text-light-green font-bold">
                 Referral URL

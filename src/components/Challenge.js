@@ -6,7 +6,7 @@ import czech from "../assets/images/czech.png";
 import cad from "../assets/images/cad.png";
 import aud from "../assets/images/aud.png";
 import chf from "../assets/images/chf.png";
-import ChallengeTable from "./common/ChallengeTable";
+import ChallengeTable from "./ChallengeTable";
 import HomepageButton from "./common/HomepageButton";
 import Currency from "./common/Currency";
 import ChallengeButton from "./common/ChallengeButton";

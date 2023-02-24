@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import Challenge from "../components/Challenge";
 import DiscoverSFT from "../components/DiscoverSFT";
@@ -18,7 +18,6 @@ import Working from "../components/Working";
 import FooterHomepage from "../components/common/FooterHomepage";
 
 const Homepage = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 2000,
