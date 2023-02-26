@@ -639,3 +639,38 @@ p {
   background: transparent;
   pointer-events: none;
 }
+
+/* certificates */
+
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: transparent;
+  /* border-color: #01c887; */
+  border: 3px solid #01c887;
+  width: 40px;
+  height: 40px;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: #00000000;
+}
+
+.ant-steps-item-wait .ant-steps-item-container .ant-steps-item-tail::after {
+  background-color: transparent;
+  border: 1px solid #01c887;
+  border-style: dashed;
+}
+
+.ant-steps-label-vertical .ant-steps-item-tail {
+  padding: 7px 21px;
+}
+
+/* affiliate account */
+
+.affiliate-registration {
+  border: 1px solid #757575 !important;
+  border-radius: 8px;
+}
+
+.affiliate-registration::placeholder {
+  color: #01c887;
+}

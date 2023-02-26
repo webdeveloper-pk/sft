@@ -20,6 +20,8 @@ import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import Policy from "./pages/Policy";
 import AccountAffiliatePortal from "./pages/AccountAffiliatePortal";
+import Certificates from "./pages/Certificates";
+import AccountAffiliate from "./pages/AccountAffiliate";
 
 const App = () => {
   return (
@@ -32,9 +34,14 @@ const App = () => {
             <Route path="/downloads" element={<AccountDownloads />} />
             <Route path="/withdrawals" element={<AccountWithdrawals />} />
             <Route path="/information" element={<AccountInformation />} />
+            <Route path="/certificates" element={<Certificates />} />
             <Route
               path="/affiliateportal"
               element={<AccountAffiliatePortal />}
+            />
+            <Route
+              path="/affiliate"
+              element={<AccountAffiliate />}
             />
           </Routes>
         </Layout>

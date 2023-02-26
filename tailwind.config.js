@@ -32,6 +32,10 @@ module.exports = {
         'referral-green3': '#9ce1cb',
         'referral-green4': '#b6eedc',
         'referral-green5': '#cdf6e9',
+        'cerificate-bg': '#ebfbf6',
+        'bronze': '#e8c09a',
+        'silver': '#c2c2c2',
+        'gold': '#efac09',
       }
     }
   },
