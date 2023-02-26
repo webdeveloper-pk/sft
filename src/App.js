@@ -22,6 +22,7 @@ import Policy from "./pages/Policy";
 import AccountAffiliatePortal from "./pages/AccountAffiliatePortal";
 import Certificates from "./pages/Certificates";
 import AccountAffiliate from "./pages/AccountAffiliate";
+import Leaderboard from "./pages/Leaderboard";
 
 const App = () => {
   return (
@@ -35,14 +36,12 @@ const App = () => {
             <Route path="/withdrawals" element={<AccountWithdrawals />} />
             <Route path="/information" element={<AccountInformation />} />
             <Route path="/certificates" element={<Certificates />} />
+            <Route path="/leaderboard" element={<Leaderboard />} />
             <Route
               path="/affiliateportal"
               element={<AccountAffiliatePortal />}
             />
-            <Route
-              path="/affiliate"
-              element={<AccountAffiliate />}
-            />
+            <Route path="/affiliate" element={<AccountAffiliate />} />
           </Routes>
         </Layout>
       </Router>

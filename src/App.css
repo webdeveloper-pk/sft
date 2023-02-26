@@ -674,3 +674,32 @@ p {
 .affiliate-registration::placeholder {
   color: #01c887;
 }
+
+.tabs-extra-demo-button {
+  margin-right: 16px;
+}
+
+.ant-row-rtl .tabs-extra-demo-button {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+/* leadernoard */
+
+.ant-pagination-item-active {
+  background-color: #01c887;
+  color: #ffffff;
+  border-color: #01c887;
+}
+
+.ant-pagination-item a {
+  padding: 0px 10px;
+}
+
+.ant-pagination-item-active a {
+  color: #ffffff;
+}
+
+.anticon svg {
+  margin-top: -7px;
+}
