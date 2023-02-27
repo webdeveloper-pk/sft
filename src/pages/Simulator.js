@@ -4,6 +4,7 @@ import download from "../assets/images/simulator-download.png";
 import SimulatorResult from "../components/common/SimulatorResult";
 import ButtonFilled from "../components/common/ButtonFilled";
 import SimulatorCounter from "../components/common/SimulatorCounter";
+import SimulatorChart from "../components/SimulatorChart";
 
 const Simulator = () => {
   const [probability, setProbablity] = useState(50);
@@ -24,17 +25,17 @@ const Simulator = () => {
           Equity Curve <span className="text-light-green">Simulator</span>
         </h1>
         <div className="flex flex-row justify-end mt-8 mb-3">
-          <div className="w-[100%] md:w-[40%] xl:w-[30%] flex justify-between items-center md:px-3">
+          <div className="w-[100%] lg:w-[35%] xl:w-[40%] flex justify-between items-center md:px-3">
             <p className="font-bold text-xl">Results</p>
             <div>
               <img src={download} alt="download" width={24} height="auto" />
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col md:flex-row gap-8">
-          <div className="w-[100%] md:w-[60%] xl:w-[60%] min-h-[600px] flex flex-col gap-y-8 justify-between">
-            <div className="md:min-h-[350px] lg:min-h-[400px]  bg-white rounded-md px-8 py-6">
-              graph
+        <div className="w-full flex flex-col lg:flex-row gap-8">
+          <div className="w-[100%] lg:w-[65%] xl:w-[60%] min-h-[600px] flex flex-col gap-y-8 justify-between">
+            <div className="w-[100%] md:min-h-[350px] lg:min-h-[400px]  bg-white rounded-md px-8 py-6">
+              <SimulatorChart />
             </div>
             <div className="min-h-[200px] bg-white rounded-md px-10 py-6">
               <div className="flex flex-col md:flex-row flex-wrap justify-between mb-5 gap-y-4">
@@ -109,7 +110,7 @@ const Simulator = () => {
               </div>
             </div>
           </div>
-          <div className="w-[100%] md:w-[40%] xl:w-[40%] min-h-[400px] bg-white rounded-md p-6 flex flex-col justify-center gap-y-6 md:gap-y-12 lg:gap-y-10 xl:gap-y-6">
+          <div className="w-[100%] lg:w-[35%] xl:w-[40%] min-h-[400px] bg-white rounded-md p-6 flex flex-col justify-center gap-y-6 md:gap-y-12 lg:gap-y-10 xl:gap-y-6">
             <div>
               <SimulatorResult text="Avg. Performance" result="67.48%" />
             </div>

@@ -5,6 +5,7 @@ import DashboardCircularSlider from "../components/common/DashboardCircularSlide
 import DashboardTable from "../components/DashboardTable";
 import sort from "../assets/images/order-sort-icon.png";
 import DashboardChallenges from "../components/DashboardChallenges";
+import DashboardChart from "../components/DashboardChart";
 
 const Dashboard = () => {
   return (
@@ -13,20 +14,20 @@ const Dashboard = () => {
         <h1 className="text-black text-2xl lg:text-3xl font-bold">
           Welcome back <span className="text-light-green">Parveen</span>
         </h1>
-        <div className="w-full flex flex-col lg:flex-row gap-12 mt-8">
-          <div className="w-[100%] lg:w-[60%]">
+        <div className="w-full flex flex-col lg:flex-row gap-12 lg:gap-8 xl:gap-12 mt-8">
+          <div className="w-[100%]  lg:w-[65%] xl:w-[60%] ">
             <p className="mb-3 font-bold text-xl">Common balance chart</p>
-            <div className="lg:min-h-[500px] bg-white rounded-md p-6">
-              graph
+            <div className="lg:min-h-[500px] bg-white rounded-md px-6 pt-6 pb-0">
+              <DashboardChart />
             </div>
           </div>
-          <div className="w-[100%] lg:w-[40%]">
+          <div className="w-[100%] lg:w-[35%] xl:w-[40%]">
             <div className="flex justify-between items-center mb-3 px-2">
               <p className="font-bold text-xl">Challenges</p>
               <p className="font-semibold text-sm text-light-green">All</p>
             </div>
             <div className="lg:min-h-[500px] flex flex-col justify-between gap-y-8">
-              <button className="min-h-[100px] lg:min-h-[150px] xl:min-h-[200px] rounded-md border-2 border-dashed border-light-green flex justify-center items-center text-light-green py-4">
+              <button className="min-h-[100px] lg:min-h-[200px] xl:min-h-[200px] rounded-md border-2 border-dashed border-light-green flex justify-center items-center text-light-green py-4">
                 <div className="flex flex-col font-bold">
                   <p className="text-5xl -mt-3">+</p>
                   <p className="text-lg mt-1 font-semibold">
@@ -35,9 +36,9 @@ const Dashboard = () => {
                 </div>
               </button>
               <div className="md:min-h-[200px] min-h-[300px] bg-white rounded-md px-8 md:px-5 xl:px-8 py-6 flex flex-col md:flex-row justify-between items-center">
-                <div className="flex flex-row lg:flex-col w-[100%] lg:w-[20%] text-center justify-center gap-x-8 mb-4 lg:mb-0">
+                <div className="flex flex-row lg:flex-col w-[100%] lg:w-[25%] xl:w-[20%] text-center justify-center gap-x-8 mb-4 lg:mb-0">
                   <div>
-                    <p className="text-base font-bold text-black mb-1">
+                    <p className="text-base lg:text-sm xl:text-base font-bold text-black mb-1">
                       Win rate
                     </p>
                     <div>
@@ -50,7 +51,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="lg:mt-2">
-                    <p className="text-base font-bold text-black mb-1">
+                    <p className="text-base lg:text-sm xl:text-base  font-bold text-black mb-1">
                       Loss rate
                     </p>
                     <div>
@@ -65,14 +66,18 @@ const Dashboard = () => {
                 </div>
                 <div className="flex flex-col w-[100%] lg:w-[65%] gap-y-4">
                   <div className="bg-black rounded-md pb-4 pt-3 px-4 text-white font-bold flex flex-col items-center">
-                    <p className="text-base mb-2">Net Profit Loss</p>
-                    <button className="bg-red-500 rounded-md py-1 px-8 xl:px-16 text-sm">
+                    <p className="text-base lg:text-sm xl:text-base mb-2">
+                      Net Profit Loss
+                    </p>
+                    <button className="bg-red-500 rounded-md py-1 px-8 xl:px-16 text-sm lg:text-xs xl:text-sm">
                       -11.39%
                     </button>
                   </div>
                   <div className="bg-black rounded-md pb-4 pt-3 px-4 text-white font-bold flex flex-col items-center">
-                    <p className="text-base mb-2">Profit Target</p>
-                    <button className="bg-light-green rounded-md py-1 px-8 xl:px-16 text-sm">
+                    <p className="text-base lg:text-sm xl:text-base  mb-2">
+                      Profit Target
+                    </p>
+                    <button className="bg-light-green rounded-md py-1 px-8 xl:px-16 text-sm lg:text-xs xl:text-sm">
                       $10,000.00
                     </button>
                   </div>

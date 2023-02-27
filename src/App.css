@@ -780,3 +780,26 @@ p {
     border-bottom: 1px solid transparent;
   }
 }
+
+/* simulator chart */
+
+.apexcharts-menu-icon,
+.apexcharts-pan-icon,
+.apexcharts-reset-icon,
+.apexcharts-selection-icon,
+.apexcharts-toolbar-custom-icon,
+.apexcharts-zoom-icon,
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon {
+  display: none;
+}
+
+.dashboard-graphs {
+  width: 500px !important;
+}
+
+@media screen and (max-width: 2500px) and (min-width: 500px) {
+  .dashboard-graphs {
+    width: 100% !important;
+  }
+}

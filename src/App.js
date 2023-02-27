@@ -29,7 +29,7 @@ import Dashboard from "./pages/Dashboard";
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Layout>
           <Routes>
             <Route path="/accountmerge" element={<AccountMerge />} />
@@ -48,8 +48,8 @@ const App = () => {
             />
           </Routes>
         </Layout>
-      </Router>
-      {/* <Router>
+      </Router> */}
+      <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
@@ -60,7 +60,7 @@ const App = () => {
           <Route path="/404" element={<ErrorPage />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   );
 };
