@@ -12,7 +12,7 @@ const AccountAffiliate = () => {
     <div>
       <div className="h-full pb-[200px] lg:pb-[300px] xl:pb-[360px]">
         <div className="pt-10 w-[100%] lg:w-[60%] ">
-          <h1 className="text-black text-2xl lg:text-3xl font-bold uppercase">
+          <h1 className="text-black text-2xl lg:text-4xl font-bold uppercase">
             Looking to promote <br /> unique and exciting trading <br />{" "}
             <span className="text-light-green">challenges?</span>
           </h1>

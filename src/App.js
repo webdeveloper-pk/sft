@@ -23,6 +23,8 @@ import AccountAffiliatePortal from "./pages/AccountAffiliatePortal";
 import Certificates from "./pages/Certificates";
 import AccountAffiliate from "./pages/AccountAffiliate";
 import Leaderboard from "./pages/Leaderboard";
+import Simulator from "./pages/Simulator";
+import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
@@ -37,11 +39,13 @@ const App = () => {
             <Route path="/information" element={<AccountInformation />} />
             <Route path="/certificates" element={<Certificates />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
+            <Route path="/affiliate" element={<AccountAffiliate />} />
+            <Route path="/simulator" element={<Simulator />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route
               path="/affiliateportal"
               element={<AccountAffiliatePortal />}
             />
-            <Route path="/affiliate" element={<AccountAffiliate />} />
           </Routes>
         </Layout>
       </Router>

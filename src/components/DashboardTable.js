@@ -1,7 +1,7 @@
 import React from "react";
 import { Dropdown, Table, Tag } from "antd";
 
-const WithdrawTable = () => {
+const DashboardTable = () => {
   const [selectedRowKeys, setSelectedRowKeys] = React.useState([]);
   const items = [
     {
@@ -17,29 +17,22 @@ const WithdrawTable = () => {
   const columns = [
     {
       title: (
-        <span className="font-bold text-lightest-gray uppercase">Invoice</span>
+        <span className="font-bold text-lightest-gray uppercase">Trade</span>
       ),
-      dataIndex: "invoice",
-      key: "invoice",
-      render: (invoice) => (
-        <p className="text-black font-semibold hover:text-black uppercase">
-          {invoice}
+      dataIndex: "trade",
+      key: "trade",
+      render: (trade) => (
+        <p className="text-black font-semibold hover:text-black">
+          {trade}
+          <p className="text-blue-500 text-[11px] mt-0">Tesla, Inc.</p>
         </p>
       ),
     },
     {
       title: (
-        <span className="font-bold text-lightest-gray uppercase">Date</span>
-      ),
-      dataIndex: "date",
-      key: "date",
-      render: (date) => (
-        <p className="text-light-gray font-semibold hover:text-black">{date}</p>
-      ),
-    },
-    {
-      title: (
-        <span className="font-bold text-lightest-gray uppercase">Amount</span>
+        <span className="font-bold text-lightest-gray uppercase">
+          order amount
+        </span>
       ),
       dataIndex: "amount",
       key: "amount",
@@ -47,6 +40,18 @@ const WithdrawTable = () => {
         <p className="text-light-gray font-semibold hover:text-black">
           {amount}
         </p>
+      ),
+    },
+    {
+      title: (
+        <span className="font-bold text-lightest-gray uppercase">
+          Delivery Date
+        </span>
+      ),
+      dataIndex: "date",
+      key: "date",
+      render: (date) => (
+        <p className="text-light-gray font-semibold hover:text-black">{date}</p>
       ),
     },
     {
@@ -74,7 +79,7 @@ const WithdrawTable = () => {
                   {stat}
                 </Tag>
               );
-            } else {
+            } else if (stat === "success") {
               return (
                 <Tag
                   key={stat}
@@ -85,6 +90,22 @@ const WithdrawTable = () => {
                     backgroundColor: "#c3ffb9",
                     border: "1px solid #c3ffb9",
                     color: "#5cc24d",
+                  }}
+                >
+                  {stat}
+                </Tag>
+              );
+            } else {
+              return (
+                <Tag
+                  key={stat}
+                  className="font-semibold"
+                  style={{
+                    borderRadius: "20px",
+                    padding: "1px 16px",
+                    backgroundColor: "#ffccca",
+                    border: "1px solid #ffccca",
+                    color: "#db5954",
                   }}
                 >
                   {stat}
@@ -115,23 +136,44 @@ const WithdrawTable = () => {
   const data = [
     {
       key: "1",
-      invoice: "0gst56729769ghj",
-      date: "02 Feb. 2023",
+      trade: "Tesla BUY",
       amount: "$30,000.00",
+      date: "02 Feb. 2023",
       status: ["processing"],
     },
     {
       key: "2",
-      invoice: "0gst56729769ghj",
-      date: "25 Jan. 2023",
+      trade: "Tesla BUY",
       amount: "$30,000.00",
+      date: "25 Jan. 2023",
       status: ["success"],
     },
     {
       key: "3",
-      invoice: "0gst56729769ghj",
-      date: "15 Jan. 2023",
+      trade: "Tesla BUY",
       amount: "$30,000.00",
+      date: "15 Jan. 2023",
+      status: ["success"],
+    },
+    {
+      key: "4",
+      trade: "Tesla BUY",
+      amount: "$30,000.00",
+      date: "01 Jan. 2023",
+      status: ["success"],
+    },
+    {
+      key: "5",
+      trade: "Tesla BUY",
+      amount: "$30,000.00",
+      date: "24 Dec. 2023",
+      status: ["declined"],
+    },
+    {
+      key: "6",
+      trade: "Tesla BUY",
+      amount: "$30,000.00",
+      date: "25 Dec. 2023",
       status: ["success"],
     },
   ];
@@ -145,7 +187,7 @@ const WithdrawTable = () => {
   };
 
   return (
-    <div className="w-full overflow-auto withdraw-table">
+    <div className="w-full overflow-auto px-6 dashboard-table">
       <Table
         columns={columns}
         dataSource={data}
@@ -156,4 +198,4 @@ const WithdrawTable = () => {
   );
 };
 
-export default WithdrawTable;
+export default DashboardTable;

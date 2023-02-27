@@ -31,15 +31,15 @@ const Withdrawals = () => {
             <h1 className="text-2xl lg:text-3xl font-bold">
               Withdrawl history
             </h1>
-            <div>
+            <div className="font-semibold text-lighter-gray2">
               <Button.Group>
-                <button className="bg-light-green text-white text-xs font-medium border border-light-green hover:bg-light-green hover:text-white w-[80px] py-2 rounded-l-md">
+                <button className="bg-light-green text-white text-xs border border-light-green hover:bg-light-green hover:text-white w-[80px] py-2 rounded-l-md">
                   All
                 </button>
-                <button className="text-xs font-medium border-t border-b border-light-green hover:bg-light-green hover:text-white w-[80px] py-2">
+                <button className="text-xs border-t border-b border-light-green hover:bg-light-green hover:text-white w-[80px] py-2">
                   Received
                 </button>
-                <button className="text-xs font-medium border border-light-green hover:bg-light-green hover:text-white w-[80px] py-2 rounded-r-md">
+                <button className="text-xs border border-light-green hover:bg-light-green hover:text-white w-[80px] py-2 rounded-r-md">
                   Payement
                 </button>
               </Button.Group>

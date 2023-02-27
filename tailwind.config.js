@@ -40,6 +40,7 @@ module.exports = {
         "leaderboard-table-bg3": "#9ce1cb",
         "leaderboard-table-bg4": "#6cdab6",
         "leaderboard-table-bg5": "#01c887",
+        "simulator-counter": "#7fe3c3",
       },
     },
   },
