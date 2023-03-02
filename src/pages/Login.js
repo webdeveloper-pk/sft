@@ -11,13 +11,13 @@ const Login = () => {
     <div className="px-6 md:px-8 lg:px-16 xl:px-24 pt-8 pb-4 lg:pt-12 flex flex-col justify-between min-h-screen gap-y-4 bg-signin">
       <div className="flex flex-col lg:flex-row items-center justify-between lg:min-h-[85vh] gap-y-6">
         <div className="w-full lg:w-[30%] 2xl:w-[25%] flex flex-row justify-center z-50">
-          <div>
+          <a href="/">
             <img
               src={logo}
               alt="logo"
               className="w-[240px] lg:w-[300px] h-[100%]"
             />
-          </div>
+          </a>
         </div>
         <div className="w-full md:w-1/2 lg:w-[50%] xl:w-[35%] 2xl:w-[40%] mx-auto text-center z-50 lg:ml-12 xl:ml-14">
           <div className="w-full bg-white rounded-3xl px-4 lg:px-8 xl:px-10 py-6 lg:py-8 xl:py-12">
@@ -63,7 +63,10 @@ const Login = () => {
                   }
                 />
               </div>
-              <div className="flex flex-row items-center justify-center lg:justify-start mt-6 lg:mt-10 gap-x-4">
+              <a
+                href="/dashboard"
+                className="flex flex-row items-center justify-center lg:justify-start mt-6 lg:mt-10 gap-x-4"
+              >
                 <ButtonFilled
                   textSize="text-xs lg:text-sm"
                   buttonText="get started"
@@ -74,7 +77,7 @@ const Login = () => {
                   textSize="text-xs md:text-sm"
                   buttonText="Forget Password?"
                 />
-              </div>
+              </a>
             </form>
             <div className="flex flex-row item-center gap-x-2 justify-center lg:justify-start mt-6 lg:mt-10 font-semibold">
               <p className="text-lightest-black text-sm xl:text-base">
@@ -92,19 +95,19 @@ const Login = () => {
         <p>© 2008 - 2021 Girls Chase Inc.</p>
         <ul className="flex flex-row gap-x-1">
           <li>
-            <a href="/privacy" className="login-link">
+            <a href="/policy" className="login-link">
               Privacy
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="/terms" className="login-link">
+            <a href="/policy" className="login-link">
               Terms
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="/support" className="login-link">
+            <a href="/faq" className="login-link">
               Support
             </a>
           </li>

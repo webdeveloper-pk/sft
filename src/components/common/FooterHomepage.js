@@ -5,9 +5,12 @@ const FooterHomepage = () => {
   return (
     <footer class="px-6 md:px-8 pt-32 md:pt-24 lg:pt-36 xl:pt-52 pb-32 lg:px-16 bg-lightest-white-bg footer-bg relative footer-gorilla footer">
       <img src={require("../../assets/images/gorila-footer.png")} alt="" />
-      <div className="mb-16 md:mb-24 flex justify-center md:justify-start">
+      <a
+        href="/"
+        className="mb-16 md:mb-24 flex justify-center md:justify-start"
+      >
         <img src={logo} alt="logo" width="150px" height="auto" />
-      </div>
+      </a>
       <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4">
           <nav className="list-none mb-10">
@@ -22,7 +25,7 @@ const FooterHomepage = () => {
             <div>
               <li>
                 <a
-                  href="/"
+                  href="/contact"
                   className="text-lighter-gray hover:text-white text-sm"
                 >
                   Contact Options
@@ -30,7 +33,7 @@ const FooterHomepage = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/policy"
                   className="text-lighter-gray hover:text-white text-sm"
                 >
                   Privacy Policy

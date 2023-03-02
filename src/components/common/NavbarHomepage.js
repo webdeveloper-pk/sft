@@ -60,29 +60,39 @@ const NavbarHomepage = () => {
             >
               <ul className="flex flex-col lg:flex-row items-center gap-x-6 gap-y-3 2xl:gap-12">
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <div className="btn btn-one hover:text-light-green">
-                    <span>How it works</span>
-                  </div>
+                  <a href="#working">
+                    <div className="btn btn-one hover:text-light-green">
+                      <span>How it works</span>
+                    </div>
+                  </a>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <div className="btn btn-one hover:text-light-green">
-                    <span>Scaling plan</span>
-                  </div>
+                  <a href="#scaling">
+                    <div className="btn btn-one hover:text-light-green">
+                      <span>Scaling plan</span>
+                    </div>
+                  </a>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <div className="btn btn-one hover:text-light-green">
-                    <span>testimonials</span>
-                  </div>
+                  <a href="#testimonial">
+                    <div className="btn btn-one hover:text-light-green">
+                      <span>testimonials</span>
+                    </div>
+                  </a>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <div className="btn btn-one hover:text-light-green">
-                    <span>Faq</span>
-                  </div>
+                  <a href="/faq">
+                    <div className="btn btn-one hover:text-light-green">
+                      <span>Faq</span>
+                    </div>
+                  </a>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
-                  <div className="btn btn-one hover:text-light-green">
-                    <span>Contact</span>
-                  </div>
+                  <a href="/contact">
+                    <div className="btn btn-one hover:text-light-green">
+                      Contact
+                    </div>
+                  </a>
                 </li>
                 <li className="hover:cursor-pointer hover:text-white">
                   <Link to="/login">

@@ -85,8 +85,13 @@ const Contact = () => {
             </div>
             <p className="text-sm mt-8 font-semibold">
               This site is protected by reCAPTCHA and the Google
-              <span className="text-light-green px-1">Privacy Policy</span> and
-              <span className="text-light-green px-1">Terms of Service</span>
+              <a href="/policy" className="text-light-green px-1">
+                Privacy Policy
+              </a>
+              and
+              <a href="/policy" className="text-light-green px-1">
+                Terms of Service
+              </a>
               apply.
             </p>
           </div>

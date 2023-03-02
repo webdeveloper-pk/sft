@@ -5,9 +5,12 @@ const Footer = () => {
   return (
     <footer class="px-6 md:px-8 lg:px-16 pt-12 md:pt-14 pb-32 md:pb-40 relative footer bg-black">
       <img src={require("../../assets/images/gorila-footer.png")} alt="" />
-      <div className="mb-14 flex justify-center md:justify-start lg:pl-8">
+      <a
+        href="/"
+        className="mb-14 flex justify-center md:justify-start lg:pl-8"
+      >
         <img src={logo} alt="logo" width="150px" height="auto" />
-      </div>
+      </a>
       <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4 lg:pl-8">
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4">
           <nav className="list-none mb-10">
@@ -22,7 +25,7 @@ const Footer = () => {
             <div>
               <li>
                 <a
-                  href="/"
+                  href="/contact"
                   className="text-lighter-gray hover:text-white text-sm"
                 >
                   Contact Options
@@ -30,7 +33,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/policy"
                   className="text-lighter-gray hover:text-white text-sm"
                 >
                   Privacy Policy

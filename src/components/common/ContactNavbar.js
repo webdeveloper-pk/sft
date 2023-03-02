@@ -61,27 +61,52 @@ const ContactNavbar = () => {
               <ul className="flex flex-col lg:flex-row items-center gap-x-6 gap-y-3 2xl:gap-12">
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <div className="hover:text-light-green hover:cursor-pointer">
-                    <span>How it works</span>
+                    <a
+                      href="/#working"
+                      className="text-black hover:text-light-green hover:cursor-pointer"
+                    >
+                      <span>How it works</span>
+                    </a>
                   </div>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <div className="hover:text-light-green hover:cursor-pointer">
-                    <span>Scaling plan</span>
+                    <a
+                      href="/#scaling"
+                      className="text-black hover:text-light-green hover:cursor-pointer"
+                    >
+                      <span>Scaling plan</span>
+                    </a>
                   </div>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <div className=" hover:text-light-green hover:cursor-pointer">
-                    <span>testimonials</span>
+                    <a
+                      href="/#testimonial"
+                      className="text-black hover:text-light-green hover:cursor-pointer"
+                    >
+                      <span>testimonials</span>
+                    </a>
                   </div>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <div className="hover:text-light-green hover:cursor-pointer">
-                    <span>Faq</span>
+                    <a
+                      href="/faq"
+                      className="text-black hover:text-light-green hover:cursor-pointer"
+                    >
+                      <span>Faq</span>
+                    </a>
                   </div>
                 </li>
                 <li className="box-1" onClick={() => setNavbar(!navbar)}>
                   <div className=" hover:text-light-green hover:cursor-pointer">
-                    <span>Contact</span>
+                    <a
+                      href="/contact"
+                      className="text-black hover:text-light-green hover:cursor-pointer"
+                    >
+                      <span>Contact</span>
+                    </a>
                   </div>
                 </li>
                 <li className="hover:cursor-pointer hover:text-white">

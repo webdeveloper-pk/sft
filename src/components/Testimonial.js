@@ -7,7 +7,10 @@ import testimonialbg from "../assets/images/testimonialbg.png";
 
 const Testimonial = () => {
   return (
-    <section class="px-6 md:px-8 xl:px-16 py-12 lg:py-16 bg-lightest-white-bg text-light-black relative">
+    <section
+      class="px-6 md:px-8 xl:px-16 py-12 lg:py-16 bg-lightest-white-bg text-light-black relative"
+      id="testimonial"
+    >
       <div className="absolute left-[15%] xl:left-[22%] 2xl:w-[50%] top-[25%] md:top-[5%]">
         <img
           src={testimonialbg}

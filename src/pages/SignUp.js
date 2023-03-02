@@ -12,13 +12,16 @@ const SignUp = () => {
   return (
     <div className="px-6 md:px-8 lg:px-16 xl:px-24 pt-8 pb-4 lg:pt-12 flex flex-col justify-between min-h-screen gap-y-4 bg-signup">
       <div className="flex flex-col lg:flex-row items-center justify-between lg:min-h-[85vh] gap-y-6">
-        <div className="w-full lg:w-[30%] xl:w-[22%] flex flex-row justify-center z-50">
+        <a
+          href="/"
+          className="w-full lg:w-[30%] xl:w-[22%] flex flex-row justify-center z-50"
+        >
           <img
             src={logo}
             alt="logo"
             className="w-[240px] lg:w-[220px] xl:w-[220px] h-[100%]"
           />
-        </div>
+        </a>
         <div className="w-full md:w-[65%] lg:w-[65%] xl:w-[47%] 2xl:w-[50%] mx-auto text-center z-50 lg:ml-12 xl:ml-16">
           <div className="w-full bg-white rounded-3xl px-4 md:px-6 lg:px-8 xl:px-10 py-6 lg:py-8 xl:py-12">
             <p className="text-lighter-black2 text-lg md:text-xl mb-0 lg:mb-2">
@@ -161,14 +164,17 @@ const SignUp = () => {
                     />
                   </Col>
                 </Row>
-                <div className="flex flex-row items-center justify-center mt-6 lg:mt-8 gap-x-4">
+                <a
+                  href="/dashboard"
+                  className="flex flex-row items-center justify-center mt-6 lg:mt-8 gap-x-4"
+                >
                   <ButtonFilled
                     textSize="text-xs lg:text-sm"
                     buttonText="sign up"
                     paddingY="py-4"
                     paddingX="px-6 md:px-10 lg:px-16"
                   />
-                </div>
+                </a>
               </div>
             </form>
             <div className="flex flex-row item-center gap-x-2 justify-center mt-4 lg:mt-8 font-semibold">
@@ -187,19 +193,19 @@ const SignUp = () => {
         <p>© 2008 - 2021 Girls Chase Inc.</p>
         <ul className="flex flex-row gap-x-1">
           <li>
-            <a href="/privacy" className="login-link">
+            <a href="/policy" className="login-link">
               Privacy
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="/terms" className="login-link">
+            <a href="/policy" className="login-link">
               Terms
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="/support" className="login-link">
+            <a href="/faq" className="login-link">
               Support
             </a>
           </li>

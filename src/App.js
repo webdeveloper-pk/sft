@@ -11,7 +11,6 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import AccountMerge from "./pages/AccountMerge";
 import ErrorPage from "./pages/ErrorPage";
-import Layout from "./components/Layout";
 import AccountOrders from "./pages/AccountOrders";
 import AccountDownloads from "./pages/AccountDownloads";
 import AccountWithdrawals from "./pages/AccountWithdrawals";
@@ -29,26 +28,6 @@ import Dashboard from "./pages/Dashboard";
 const App = () => {
   return (
     <div className="App">
-      {/* <Router>
-        <Layout>
-          <Routes>
-            <Route path="/accountmerge" element={<AccountMerge />} />
-            <Route path="/orders" element={<AccountOrders />} />
-            <Route path="/downloads" element={<AccountDownloads />} />
-            <Route path="/withdrawals" element={<AccountWithdrawals />} />
-            <Route path="/information" element={<AccountInformation />} />
-            <Route path="/certificates" element={<Certificates />} />
-            <Route path="/leaderboard" element={<Leaderboard />} />
-            <Route path="/affiliate" element={<AccountAffiliate />} />
-            <Route path="/simulator" element={<Simulator />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route
-              path="/affiliateportal"
-              element={<AccountAffiliatePortal />}
-            />
-          </Routes>
-        </Layout>
-      </Router> */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
@@ -57,6 +36,17 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/policy" element={<Policy />} />
+          <Route path="/accountmerge" element={<AccountMerge />} />
+          <Route path="/orders" element={<AccountOrders />} />
+          <Route path="/downloads" element={<AccountDownloads />} />
+          <Route path="/withdrawals" element={<AccountWithdrawals />} />
+          <Route path="/information" element={<AccountInformation />} />
+          <Route path="/certificates" element={<Certificates />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
+          <Route path="/affiliate" element={<AccountAffiliate />} />
+          <Route path="/simulator" element={<Simulator />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/affiliateportal" element={<AccountAffiliatePortal />} />
           <Route path="/404" element={<ErrorPage />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>

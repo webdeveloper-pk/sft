@@ -9,7 +9,10 @@ import workbg5 from "../assets/images/work-bg5.png";
 
 const Working = () => {
   return (
-    <section class="px-2 md:px-8 xl:px-16 py-32 lg:py-[250px] text-light-black working-bg">
+    <section
+      class="px-2 md:px-8 xl:px-16 py-32 lg:py-[250px] text-light-black working-bg"
+      id="working"
+    >
       <div className="absolute bottom-0 left-0">
         <img src={workbg1} alt="dots" width="500px" height="auto" />
       </div>
